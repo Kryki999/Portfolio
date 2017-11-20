@@ -58,6 +58,10 @@ article{
     color: white;
     font-size: 23px;
 }
+.about-text{
+	width: 50%;
+	margin: auto;
+}
 
 #portfolio{
     background: #fff;
@@ -67,6 +71,7 @@ article{
 	 height:  auto;
 		margin: auto;
 	text-align: center;
+	opacity: 0.9;
 }
 
 #contact{
@@ -74,6 +79,7 @@ article{
     color: #666;
     font-size: 20px;
     font-family: monospace;
+	opacity: 0.9;
 }
 
 footer{
