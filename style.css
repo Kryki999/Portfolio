@@ -1,0 +1,254 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: 'Patrick Hand', cursive;
+		background: #000;
+
+}
+
+header{
+    height: 70px;
+    background: #d09683;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+	 color: #000;
+	transition: all 0.4s;
+}
+.banner-text{
+	text-align: center;
+	width: 100%;
+	font-family: 'Dancing Script', cursive;
+}
+#banner{
+    width: 100%;
+    height: 400px;
+    position: fixed;
+    top: 20px;
+    text-align: center;
+	 background: #363237;
+	 text-align: center;
+	 color: #fff;
+	 font-size: 100px;
+	align-items: center;
+	display: flex;
+}
+
+#container{
+    position: relative;
+    top: 400px;
+    width: 100%;
+    margin: auto;
+    background: #363237;
+}
+
+
+article{
+    width: 65%;
+    margin:auto;
+    padding-bottom: 10px;
+	 overflow-y: hidden;
+    border-bottom: 2px solid;
+    border-bottom-color: darkgray;
+}
+
+#about{
+    background: #2d4262;
+    color: white;
+    font-size: 23px;
+}
+
+#portfolio{
+    background: #fff;
+    color: #666;
+    font-size: 20px;
+    font-family: monospace;
+	 height:  auto;
+		margin: auto;
+	text-align: center;
+}
+
+#contact{
+    background: #fff; 
+    color: #666;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+footer{
+    background: #85144b;
+	color: #000;
+}
+
+#footer-above{
+    background: #2d4262;
+    padding: 20px;
+    color: white;
+	 height: 12%;
+}
+
+#footer-below{
+    background: #d09683;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: sans-serif, inherit;
+    font-size: 20px;
+    color: white;
+	 color: #000;
+	 font-weight: inherit;
+    
+}
+.banner-image{
+    width: 1500px;
+    height: 600px;
+    
+}
+h2{
+    text-align: center;
+}
+.made{
+    font-size: 18px;
+    text-align: center;
+    font-family: monospace;
+}
+
+.social-media-icon {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.social-media-icon:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-youtube{
+    background: #bb0000;
+    color: white;
+}
+.logo{
+    float: left;
+    margin-left: 10%;
+    font-family: monospace;
+    font-weight: bold;
+    color: white;
+    
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 35px;
+    margin-top: 25px;
+    position: relative;
+}
+nav a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #fff;
+}
+a{
+    text-decoration: none; 
+}
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #444;
+    
+    position: absolute;
+    top: 0;
+    width: 0%;
+    
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+form{
+    padding: 50px;
+}
+form label{
+    width: 30%;
+}
+form input{
+    width: 250px;
+}
+form textarea{
+    width: 250px;
+}
+.row{
+    width: 100%;
+}
+.made{
+	width: 70%;
+	float: left;
+}
+.socials{
+	width: 30%;
+	float: left;
+}
+.portfolio-image{
+    width: 50%;
+}
+figcaption{
+	margin-bottom: 35px;
+ font-size: 25px;
+}
+.about-text{
+    font-family: monospace;
+    
+}
+label{
+	
+}
+@media screen and (max-width: 1100px)
+{
+	.contact-menu{
+		width: 100%;
+	}
+	#footer-above{
+		height: 27%;
+  }
+	.contact-info{
+		text-align: center;
+		width: 100%;
+		
+	}
+	.socials{
+		width: 100%;
+		text-align: center;
+	}
+	.made{
+		width: 100%;
+	}
+	.nav-text{
+		font-size: 15px;
+	}
+}
